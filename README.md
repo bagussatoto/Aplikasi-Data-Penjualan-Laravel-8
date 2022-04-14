@@ -3,10 +3,12 @@
 Membuat Aplikasi Berbasis Web Data Penjualan Menggunakan Laravel 8, Yang Bertujuan Untuk Presentasi Kepada Tester. Aplikasi Berbasis Web Data Penjualan dengan Laravel 8 adalah aplikasi yang berfungsi untuk melakukan pendataan barang.
 
 ## Siapa pembuat aplikasi ini?
-|----------------|----------------------|
-| Nama           | Bagus Budi Satoto    |
-| Jurusan        | S1 - Informatika     |
-| Universitas    | Amikom Yogyakarta    |
+
+| Profile        |  Keterangan                      |
+|----------------|----------------------------------|
+| Nama           | Bagus Budi Satoto                |
+| Jurusan        | S1 - Informatika                 |
+| Kampus         | Universitas Amikom Yogyakarta    |
 
 
 
@@ -14,21 +16,16 @@ Membuat Aplikasi Berbasis Web Data Penjualan Menggunakan Laravel 8, Yang Bertuju
 
 <img src="public/assets_readme/img/Desain_ERD.png" alt="Desain ERD">
 
-<h3>Notes : </h3>
 
-<b>Jenis Penjualan : </b>Digunakan untuk menyimpan data jenis penjualan.
+## Penjelasan Aplikasi
 
-<b>Transaksi Penjualan : </b>Digunakan untuk menyimpan data transaksi penjualan. (Master Data Penjualan).
+|<h3>Notes  </h3>       |       Keterangan                                                                  |
+|-----------------------|-----------------------------------------------------------------------------------|
+|<b>Jenis Penjualan     | </b>Digunakan untuk menyimpan data jenis penjualan.                               |
+|<b>Transaksi Penjualan | </b>Digunakan untuk menyimpan data transaksi penjualan. (Master Data Penjualan).  |
+|<b>Barang Penjualan    | </b>Digunakan untuk menyimpan data barang penjualan.                              |
+|<b>Waktu Transaksi     | </b>Digunakan untuk menyimpan data kapan waktu transaksi.                         |
 
-<b>Barang Penjualan : </b>Digunakan untuk menyimpan data barang penjualan.
-
-<b>Waktu Transaksi : </b>Digunakan untuk menyimpan data kapan waktu transaksi.
-
-## Foto Aplikasi Data Penjualan
-
-<img src="public/assets_readme/img/Halaman_Utama.PNG" alt="Halaman Utama">
-
-<img src="public/assets_readme/img/Halaman_Pendataan.PNG" alt="Halaman Pendataan">
 
 ## Cara Instalasi ke Server Lokal :
 
@@ -37,7 +34,7 @@ Membuat Aplikasi Berbasis Web Data Penjualan Menggunakan Laravel 8, Yang Bertuju
 -   Fork Repo Github Saya
 -   Clone project repo saya dengan cara menuliskan pada terminal/cmd/git bash :<br> <b>git clone</b>
 ``````
-https://github.com/bagussatoto/Aplikasi-Data-Penjualan-Laravel-8.git
+git clone https://github.com/bagussatoto/Aplikasi-Data-Penjualan-Laravel-8.git
 `````` 
 -   lalu masuk ke direktori repo yg sudah di clone dengan ketik lg pada terminal/cmd/git bash <b>cd aplikasi_data_penjualan</b>
 -   lalu ketik <b>composser install </b> dan <b>php artisan key generate</b>
