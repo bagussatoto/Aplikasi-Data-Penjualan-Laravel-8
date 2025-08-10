@@ -53,7 +53,7 @@
     "postcss": "^8.3.5"
   },
   "dependencies": {
-    "@mdi/font": "^5.9.55",
+    "@mdi/font": "^7.0.0",
     "apexcharts": "^3.26.2",
     "bootstrap": "^5.0.1",
     "bootstrap-icons": "^1.5.0",
